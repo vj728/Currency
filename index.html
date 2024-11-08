@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form action="">
+
+    <div class="main">
+
+      <h1>Currency Converter</h1>
+  <label for="tags"> Enter Amount</label>
+  <input type="number" id="first" class="A" value="0">
+
+  <label for="fi-tag">From</label>
+  <div class="firs-section">
+    <select name="" id="firs-sec"  class="A">
+      <option value="usa">🇺🇸 USA</option>
+      <option value="ind"> 🇮🇳 IND</option>
+    </select>
+  </div>
+  
+<p id="Go">⬆⬇</p>
+  <label for="fi-tag">To</label>
+  <div class="second">
+    <select name="" id="second-sec"  class="A">
+      <option value="ind"> 🇮🇳 IND</option>
+      <option value="usa">🇺🇸 USA</option>
+    </select>
+  </div>
+  
+
+  <p id="result"></p>
+
+  <button type="button" onclick="convert()"  id="btn"   class="A">Get Exchange Rate</button>
+
+    </div>
+
+  
+
+</form>
+  
+  <script src="app.js"></script>
+</body>
+</html>
